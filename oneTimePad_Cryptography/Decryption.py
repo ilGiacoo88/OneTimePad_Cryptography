@@ -1,11 +1,22 @@
+#Created by ilGiaco88
+#Copyright© 2024 ilGiaco88
+#License: MIT License
+#Patch 0.0.1
+#Version: 0.0.1
+#Patch new features: the key is printed out as a hexadecimal number for a better user experience; the key, in the input, is taken as an hexadecimal number in the decryption; the input warns that you can't insert blank lines in the input()
+
+
 #taking the cipher message
 cipher_message_input=input("\nInsert the cipher text:\n")
 
 #taking the key to decrypt the message
 key_input_raw=input("\nInsert the secret key:\n")
 
-#to ensure that the key and the text are numbers
+#try/except to ensure that the key and the text are numbers and not other invalid types
 try:
+    #transforming the key from hexadecimal to binary
+    key_input_raw= '0b' + ''.join(format(x, 'b') for x in bytearray(key_input_raw, 'utf-8'))
+
     #transforming the cipher message from string to integers
     cipher_message=int(cipher_message_input, 2)
 
