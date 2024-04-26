@@ -40,4 +40,5 @@ Have fun and learn as much as you can from this project. <br><br>
 Thank you <br>
 *ilGiacoo88* <br>
 
-
+***History:***<br>
+1) 26/04/2024 --> Uploaded the project: ***oneTimePad_Cryptography*** with the two *python files* (*Encryption.py, Decryptio.py*), the *README.md* and the *MIT License*
