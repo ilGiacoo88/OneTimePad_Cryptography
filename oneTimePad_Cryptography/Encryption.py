@@ -9,7 +9,7 @@ loop=True
 while loop:
 
     #user input message
-    user_message=input("\nInsert the message to encrypt:\n")
+    user_message=input("\nInsert the message to encrypt (remember that you can't insert new line, if you press ENTER, you send your input):\n")
 
     #saving user_message in a f variable
     original_message=f"{user_message}"
