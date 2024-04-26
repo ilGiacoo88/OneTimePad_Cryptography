@@ -46,4 +46,4 @@ try:
 
 #if the type is not a number, the program doesn't crash
 except:
-    print("You must insert numbers in the inputs, any other data type are not accepted")
+    print("Something went wrong, you must insert int data in the inputs and they must be correct, so try again..")
