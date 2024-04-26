@@ -1,3 +1,11 @@
+#Created by ilGiaco88
+#Copyright© 2024 ilGiaco88
+#License: MIT License
+#Patch 0.0.1
+#Version: 0.0.1
+#Patch new features: the key is printed out as a hexadecimal number for a better user experience;the key, in the input, is taken as an hexadecimal number in the decryption; the input warns that you can't insert blank lines in the input()
+
+
 #modules that we need in the project
 import sys
 import secrets
@@ -9,7 +17,7 @@ loop=True
 while loop:
 
     #user input message
-    user_message=input("\nInsert the message to encrypt (remember that you can't insert new line, if you press ENTER, you send your input):\n")
+    user_message=input("\nInsert the message to encrypt:\n")
 
     #saving user_message in a f variable
     original_message=f"{user_message}"
@@ -47,7 +55,7 @@ ciphertext= key ^ message
 print("\nRemember the secret key and the ciphertext, because you will need them to decrypt the message later!")
 
 #Secret Key
-print("\nSecret key: \n" + str(bin(key)))
+print("\nSecret key: \n" + str(key_raw))
 
 #Ciphertext
 print("\nCiphertext: \n" + str(bin(ciphertext)) + "\n")
