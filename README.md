@@ -42,6 +42,6 @@ Thank you <br>
 
 ***History:***<br>
 1) 26/04/2024 --> Uploaded the project: ***oneTimePad_Cryptography*** with the two *python files* (*Encryption.py, Decryptio.py*), the *README.md* and the *MIT License*
-2) 26/04/2024 --> added a Patch 0.0.1, the changes are:
-                                                       the key is printed out as an hexadecimal number to have a better user-experience;  <br>
-                                                       the user can insert the key in hexadecimal format in the decryption file <br>
+2) 26/04/2024 --> added a Patch 0.0.1, the changes are: <br>
+                                                       - the key is printed out as an hexadecimal number to have a better user-experience;  <br>
+                                                       - the user can insert the key in hexadecimal format in the decryption file <br>
